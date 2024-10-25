@@ -1,0 +1,65 @@
+html {
+    background: rgb(34,34,34);
+}
+
+body {
+    color: #e8e8e8;
+    background: rgb(34,34,34);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    color:rgb(255, 85, 75);
+    background: rgb(34,34,34);
+}
+
+/* Navbar stuff */
+
+nav {
+    background: rgb(34,34,34); 
+    color: #e8e8e8
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(34,34,34);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px 0; /* Spacing */
+    flex: 1;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+.footer-content p {
+    margin: 0; /* Remove margin for cleaner look */
+}
