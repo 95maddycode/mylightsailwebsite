@@ -8,9 +8,10 @@
 npm install
 npm install express nodemon ejs
 ```
-This will generate the file "package-lock.json" and the folder "node_modules" in your project folder.
+This will generate the file "package-lock.json" and the folder "node_modules" in your project folder.< br / > 
 4. Replace your name with the words "insert_your_name" in line 6 in the home.ejs file.
 5. Start the app locally by executing the following line of code:
+
 ```
 npm start
 ```
