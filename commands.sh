@@ -10,5 +10,5 @@ docker images
 docker run -p 80:80 mylightsailwebsite_repo
 # then, navigate in the browser to localhost:80
 
-# Push the image to lightsail
+# Command to push the image to lightsail
 aws lightsail push-container-image --region us-east-1 --service-name mylightsailwebsite-container-service --label mylightsailwebsite-container --image mylightsailwebsite_repo:latest
